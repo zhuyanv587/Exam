@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String userName = surname.getText().toString();
         String password1 = password.getText().toString();
         if (userName.equals("")&&password1.equals("")){
-            Toast.makeText(MainActivity.this,"请输入信息",Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this,"请输入用户名和密码",Toast.LENGTH_LONG).show();
             surname.setText("");
             password.setText("");
         }else {
